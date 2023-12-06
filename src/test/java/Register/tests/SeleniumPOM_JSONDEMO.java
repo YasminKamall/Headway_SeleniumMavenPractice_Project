@@ -71,6 +71,8 @@ public class SeleniumPOM_JSONDEMO {
         info.Clickdeleteaccount();
         //Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
         info.assertonAccountdeleted("ACCOUNT DELETED!");
+        // Close the browser
+        driver.quit();
     }
 
 }
