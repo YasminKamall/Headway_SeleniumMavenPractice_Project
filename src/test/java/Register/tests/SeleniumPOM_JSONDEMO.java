@@ -73,6 +73,7 @@ public class SeleniumPOM_JSONDEMO {
         info.assertonAccountdeleted("ACCOUNT DELETED!");
         // Close the browser
         driver.quit();
+
     }
 
 }
